@@ -22,6 +22,6 @@
       "@*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "configs/database.js", "configs/auth.js", "models/user.js", "app/api/auth/[...nextauth]/route.js", "components/Nav.js", "app/create-prompt/page.jsx", "components/Feed.js", "components/PromptCard.js", "app/profile/page.js", "components/Profile.jsx", "app/api/prompt/[id]/route.js", "app/update-prompt/page.js"],
   "exclude": ["node_modules"]
 }
